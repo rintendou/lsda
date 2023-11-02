@@ -97,7 +97,30 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Prerequisites
 
+Latest version of Python
+* *Note: You can use Python3 to run this or Jupyter Notebook, choose whatever you're more comfortable with.*
+
+### Installation
+This project relies on many external libraries to assist in data analysis.
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/rintendou/lsda.git
+   ```
+2. Install the Python modules
+   ```sh
+   pip3 install -e .
+   ```
+3. (Optional) If you are using Jupyter, you may need to download any modules or libaries into the Jupyter kernel. You can do so by adding the following to the top of your notebook:
+  ```
+  # Install a pip package in the current Jupyter kernel
+import sys
+!{sys.executable} -m pip install LIBRARY_NAME
+!{sys.executable} -m pip install LIBRARY_NAME
+!{sys.executable} -m pip install LIBRARY_NAME
+  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
