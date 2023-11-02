@@ -7,12 +7,10 @@ import numpy as np
 # Display all df w/o truncation
 pd.set_option('display.max_columns', None)
 
-df = pd.read_csv("lsda/data/csv/GlobalWeatherRepository.csv")
+df = pd.read_csv("lsda/data/GlobalWeatherRepository.csv")
 
 # Setting up US dataframe
 us_df = df[(df['country'] == "United States of America")]
-numeric = us_df.describe(include=np.number)
-category = us_df.describe(include="object")
 
 # Average temperature in the US in Celcius
 temp_fig = px.line(us_df, x='last_updated', y='temperature_fahrenheit',
