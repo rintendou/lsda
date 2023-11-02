@@ -1,0 +1,15 @@
+[project]
+name = "lsda"
+authors = [
+    { name = "Danny Chen", email = "dchen31@nyit.edu" },
+    { name = "Jonan MANZI", email = "jmanzi@nyit.edu" },
+]
+version = "0.0.1"
+description = "Large Scale Data Analysis"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = ['plotly', 'pandas', 'numpy']
+
+[tool.setuptools.packages.find]
+# where = ["lsda"]
+namespaces = false
