@@ -191,7 +191,7 @@ Project Link: [https://github.com/rintendou/lsda](https://github.com/rintendou/l
 [Python]: https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
 [Jupyter]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
-[Jupyer-url]: https://jupyter.org/
+[Jupyter-url]: https://jupyter.org/
 [Pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
 [Pandas-url]: https://pandas.pydata.org/
 [Plotly]: https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
